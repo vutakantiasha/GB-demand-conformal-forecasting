@@ -5,7 +5,8 @@ import json
 import os
 import platform
 import random
-import subprocess
+import shutil
+import subprocess  # nosec B404 -- fixed argv; read-only git provenance command
 import sys
 from importlib import metadata
 from pathlib import Path
@@ -32,9 +33,12 @@ def stable_dict_hash(data: dict[str, Any]) -> str:
 
 
 def git_commit(root: Path) -> str | None:
+    git_executable = shutil.which("git")
+    if git_executable is None:
+        return None
     try:
         return subprocess.check_output(  # noqa: S603  # fixed argv; no shell
-            ["git", "-C", str(root), "rev-parse", "HEAD"],
+            [git_executable, "-C", str(root), "rev-parse", "HEAD"],
             text=True,
             stderr=subprocess.DEVNULL,
         ).strip()
