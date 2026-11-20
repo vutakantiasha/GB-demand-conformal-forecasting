@@ -29,9 +29,9 @@ reports_smoke/
 
 # Local logs and transient outputs
 *.log
-
 # Regenerated model/prediction artefacts
 artifacts/models/*
 artifacts/predictions/*.csv
 artifacts/calibration/*.csv
 results/error_analysis/error_taxonomy.csv
+

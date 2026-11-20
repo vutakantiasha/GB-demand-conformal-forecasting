@@ -1,0 +1,15 @@
+coverage: 0.90
+horizon_aware: true
+min_scores_per_horizon: 20
+static:
+  finite_sample_correction: true
+adaptive:
+  gamma: 0.02
+  rolling_window: 180
+  alpha_min: 0.01
+  alpha_max: 0.30
+sensitivity_levels: [0.80, 0.90, 0.95]
+
+adaptive_sensitivity:
+  gamma: [0.01, 0.02, 0.05]
+  rolling_window: [90, 180, 365]

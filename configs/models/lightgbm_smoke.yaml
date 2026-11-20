@@ -1,0 +1,21 @@
+quantiles: [0.05, 0.50, 0.95]
+base_params:
+  n_estimators: 120
+  learning_rate: 0.06
+  num_leaves: 24
+  max_depth: 8
+  min_child_samples: 20
+  subsample: 0.9
+  colsample_bytree: 0.9
+  reg_alpha: 0.0
+  reg_lambda: 0.1
+  verbosity: -1
+  n_jobs: 2
+tuning:
+  enabled: true
+  trials: 2
+  candidate_grid:
+    num_leaves: [16, 24]
+    min_child_samples: [15, 25]
+    learning_rate: [0.05, 0.08]
+    max_depth: [6, 8]

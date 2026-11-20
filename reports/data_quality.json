@@ -1,0 +1,16 @@
+{
+  "duplicate_keys": 0,
+  "invalid_target_rows": 0,
+  "irregular_46_or_50_period_days": 8,
+  "missing_fraction": {
+    "demand_lag_2d_mw": 0.0016726403823178017,
+    "demand_lag_7d_mw": 0.0052568697729988055,
+    "embedded_solar_forecast_mw": 0.0007168458781362007,
+    "embedded_wind_forecast_mw": 0.0007168458781362007,
+    "neso_day_ahead_forecast_mw": 0.0
+  },
+  "neso_outturn_vs_historic_demand_mae_mw": 56.375014934289126,
+  "normal_48_period_days": 1387,
+  "rows": 66960,
+  "unique_days": 1395
+}

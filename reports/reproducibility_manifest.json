@@ -1,0 +1,66 @@
+{
+  "config_sha256": "741f12cebdc40ff73f869e4dd53d5d5aeb03501be9478835f4455d9a07302b1c",
+  "locked_run_config_sha256": "d43c47d5e39819a357ee201b4797a6077865bbd360c480c063c63d21f2e2c62a",
+  "master_dataset": "data/processed/master_dataset.csv.gz",
+  "outputs": {
+    "bootstrap": "results/bootstrap/mae_vs_seasonal_naive.csv",
+    "conformal_sensitivity": "results/metrics/conformal_sensitivity.csv",
+    "distribution_shift": "results/metrics/distribution_shift.csv",
+    "error_taxonomy": "results/error_analysis/error_taxonomy.csv",
+    "figures_dir": "results/figures",
+    "lightgbm_shap_figure": "results/figures/06_lightgbm_shap_summary.png",
+    "lightgbm_shap_importance": "results/metrics/lightgbm_shap_importance.csv",
+    "overall_metrics": "results/metrics/overall_metrics.csv",
+    "results_report": "reports/results_evidence_pack.md",
+    "slice_metrics": "results/metrics/slice_metrics.csv",
+    "top_error_days": "results/error_analysis/top_error_days.csv"
+  },
+  "packages": {
+    "PyYAML": "6.0.3",
+    "holidays": "0.108",
+    "lightgbm": "4.7.0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.5",
+    "pandas": "2.3.3",
+    "requests": "2.34.2",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "shap": "0.54.1",
+    "torch": "2.10.0"
+  },
+  "path_policy": "repository-relative",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "prediction_files": [
+    "artifacts/predictions/seasonal_naive.csv",
+    "artifacts/predictions/lightgbm.csv",
+    "artifacts/predictions/lightgbm_no_renewables.csv",
+    "artifacts/predictions/tft.csv"
+  ],
+  "public_release_omissions": [
+    "large row-level prediction CSVs",
+    "large row-level calibration CSVs",
+    "full row-level error taxonomy",
+    "runtime-generated PNG figures (replaced by compact SVG summaries in the public release)",
+    "raw NESO datasets"
+  ],
+  "public_release_retained_outputs": [
+    "results/metrics/overall_metrics.csv",
+    "results/metrics/slice_metrics.csv",
+    "results/metrics/conformal_sensitivity.csv",
+    "results/metrics/distribution_shift.csv",
+    "results/metrics/lightgbm_shap_importance.csv",
+    "results/bootstrap/mae_vs_seasonal_naive.csv",
+    "results/error_analysis/top_error_days.csv",
+    "reports/data_quality.json",
+    "reports/training_summary.json",
+    "reports/results_evidence_pack.md",
+    "results/figures/01_mae_comparison.svg",
+    "results/figures/02_coverage_vs_width.svg",
+    "results/figures/03_mae_by_settlement_band.svg",
+    "results/figures/04_lightgbm_shap_importance.svg",
+    "results/figures/05_distribution_shift.svg"
+  ],
+  "python": "3.12.3 (v3.12.3:f6650f9ad7, Apr  9 2024, 08:18:47) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "release_note": "Administrative identifiers and machine-local paths were removed for the public release; scientific settings and locked result values are unchanged.",
+  "source_manifest": "data/raw/source_manifest.json"
+}

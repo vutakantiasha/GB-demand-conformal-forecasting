@@ -1,0 +1,96 @@
+{
+  "license": "NESO Open Data Licence",
+  "records": [
+    {
+      "kind": "historic_demand",
+      "local_path": "data/raw/historic_demand_2023.csv",
+      "resource_id": "bf5ab335-9b40-4ea4-b93a-ab4af7bce003",
+      "resource_name": "historic_demand_data_2023",
+      "retrieved_utc": "2026-11-17T01:40:05.419161+00:00",
+      "sha256": "cb6f7b91dd6a5defbdd918e3db440b8e6cec5855ef18a8715bb8e294b50cfa23",
+      "size_bytes": 1732679,
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/bf5ab335-9b40-4ea4-b93a-ab4af7bce003/download/demanddata_2023.csv"
+    },
+    {
+      "kind": "historic_demand",
+      "local_path": "data/raw/historic_demand_2024.csv",
+      "resource_id": "f6d02c0f-957b-48cb-82ee-09003f2ba759",
+      "resource_name": "historic_demand_data_2024",
+      "retrieved_utc": "2026-11-17T01:40:07.708428+00:00",
+      "sha256": "fa7895b6e9ab5eb1b450949d969cb18ffeb6005359fc71c79c87e1c47e59cac6",
+      "size_bytes": 1809707,
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/f6d02c0f-957b-48cb-82ee-09003f2ba759/download/demanddata_2024.csv"
+    },
+    {
+      "kind": "historic_demand",
+      "local_path": "data/raw/historic_demand_2025.csv",
+      "resource_id": "b2bde559-3455-4021-b179-dfe60c0337b0",
+      "resource_name": "historic_demand_data_2025",
+      "retrieved_utc": "2026-11-17T01:40:09.914715+00:00",
+      "sha256": "8b8be946bbb084bc28fbf95a71fad0fceb5543b98e02755235130a42beaee4e0",
+      "size_bytes": 1869771,
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/b2bde559-3455-4021-b179-dfe60c0337b0/download/demanddata_2025.csv"
+    },
+    {
+      "kind": "historic_demand",
+      "local_path": "data/raw/historic_demand_2026.csv",
+      "resource_id": "8a4a771c-3929-4e56-93ad-cdf13219dea5",
+      "resource_name": "historic_demand_data_2026",
+      "retrieved_utc": "2026-11-17T01:40:12.159462+00:00",
+      "sha256": "dd54074e2b76f8340bd515840aa0a1d117568e8ed57ee15cb1ad0e9bbb50700f",
+      "size_bytes": 1530388,
+      "url": "https://api.neso.energy/dataset/8f2fe0af-871c-488d-8bad-960426f24601/resource/8a4a771c-3929-4e56-93ad-cdf13219dea5/download/demanddataupdate_2026.csv"
+    },
+    {
+      "kind": "embedded_forecast",
+      "local_path": "data/raw/embedded_forecast_archive_2023.csv",
+      "resource_id": "26c9ef64-ce43-4e22-b984-ef013636aacb",
+      "resource_name": "embedded_solar_and_wind_forecast_archive_2023",
+      "retrieved_utc": "2026-11-17T01:40:34.941721+00:00",
+      "sha256": "74da42a53515e51b5d0c069b77a86b7f74489549deb2b7fb5837a04b6223cf1d",
+      "size_bytes": 510495378,
+      "url": "https://api.neso.energy/dataset/91c0c70e-0ef5-4116-b6fa-7ad084b5e0e8/resource/26c9ef64-ce43-4e22-b984-ef013636aacb/download/embedded_archive_2023.csv"
+    },
+    {
+      "kind": "embedded_forecast",
+      "local_path": "data/raw/embedded_forecast_archive_2024.csv",
+      "resource_id": "06abd00a-ef6b-488b-9b6d-5e08fdc0c890",
+      "resource_name": "embedded_solar_and_wind_forecast_archive_2024",
+      "retrieved_utc": "2026-11-17T01:40:56.764958+00:00",
+      "sha256": "f9a3fba4223924d913413732fcc82fe7482de055b3d257ba1257b8478ba2e6a6",
+      "size_bytes": 512049380,
+      "url": "https://api.neso.energy/dataset/91c0c70e-0ef5-4116-b6fa-7ad084b5e0e8/resource/06abd00a-ef6b-488b-9b6d-5e08fdc0c890/download/embedded_archive_2024.csv"
+    },
+    {
+      "kind": "embedded_forecast",
+      "local_path": "data/raw/embedded_forecast_archive_2025.csv",
+      "resource_id": "fc13df13-2dad-4a1c-b9e3-4569efba4955",
+      "resource_name": "embedded_solar_and_wind_forecast_archive_2025",
+      "retrieved_utc": "2026-11-17T01:41:24.820862+00:00",
+      "sha256": "8a9e75dace7f99590f00ffd025a817a397ba63e55ab88d03194f31d7c0e468b9",
+      "size_bytes": 645655728,
+      "url": "https://api.neso.energy/dataset/91c0c70e-0ef5-4116-b6fa-7ad084b5e0e8/resource/fc13df13-2dad-4a1c-b9e3-4569efba4955/download/embedded_archive_2025.csv"
+    },
+    {
+      "kind": "embedded_forecast",
+      "local_path": "data/raw/embedded_forecast_archive_2026.csv",
+      "resource_id": "31861619-0b86-47ba-bac2-d008a760af54",
+      "resource_name": "embedded_solar_and_wind_forecast_archive_2026",
+      "retrieved_utc": "2026-11-17T01:58:52.070382+00:00",
+      "sha256": "f3cdca7128016d51a2e52e16ac951aedc0147b81539967229f2852cc6e76b3fa",
+      "size_bytes": 428994560,
+      "url": "https://api.neso.energy/datastore/dump/31861619-0b86-47ba-bac2-d008a760af54"
+    },
+    {
+      "kind": "day_ahead_performance",
+      "local_path": "data/raw/day_ahead_half_hourly_performance.csv",
+      "resource_id": "08e41551-80f8-4e28-a416-ea473a695db9",
+      "resource_name": "day_ahead_half_hourly_demand_forecast_performance",
+      "retrieved_utc": "2026-11-17T01:58:55.891064+00:00",
+      "sha256": "3019e430272941b96b98972dbcb2a965371207eb702f6d7b3029b999c58d74dd",
+      "size_bytes": 9759066,
+      "url": "https://api.neso.energy/dataset/5281b494-5566-42dd-bf1a-9ce38642fabf/resource/08e41551-80f8-4e28-a416-ea473a695db9/download/1b-incentive.csv"
+    }
+  ],
+  "source": "NESO Open Data"
+}

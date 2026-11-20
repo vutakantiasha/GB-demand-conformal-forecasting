@@ -1,0 +1,82 @@
+{
+  "lightgbm": {
+    "best_params": {
+      "colsample_bytree": 0.9,
+      "learning_rate": 0.05,
+      "max_depth": 12,
+      "min_child_samples": 20,
+      "n_estimators": 900,
+      "n_jobs": -1,
+      "num_leaves": 24,
+      "random_state": 2712,
+      "reg_alpha": 0.05,
+      "reg_lambda": 0.2,
+      "subsample": 0.9,
+      "verbosity": -1
+    },
+    "features": [
+      "settlement_period",
+      "sp_sin",
+      "sp_cos",
+      "dow_sin",
+      "dow_cos",
+      "month_sin",
+      "month_cos",
+      "is_weekend",
+      "is_bank_holiday_ew",
+      "is_bank_holiday_scotland",
+      "lag_1d_available",
+      "demand_lag_1d_mw",
+      "demand_lag_2d_mw",
+      "demand_lag_7d_mw",
+      "demand_lag_14d_mw",
+      "demand_rolling_mean_7d_mw",
+      "demand_rolling_std_7d_mw",
+      "prevday_morning_mean_mw",
+      "prevday_morning_max_mw",
+      "embedded_wind_forecast_mw",
+      "embedded_solar_forecast_mw"
+    ]
+  },
+  "lightgbm_no_renewables": {
+    "best_params": {
+      "colsample_bytree": 0.9,
+      "learning_rate": 0.025,
+      "max_depth": 8,
+      "min_child_samples": 20,
+      "n_estimators": 900,
+      "n_jobs": -1,
+      "num_leaves": 32,
+      "random_state": 2712,
+      "reg_alpha": 0.05,
+      "reg_lambda": 0.2,
+      "subsample": 0.9,
+      "verbosity": -1
+    },
+    "features": [
+      "settlement_period",
+      "sp_sin",
+      "sp_cos",
+      "dow_sin",
+      "dow_cos",
+      "month_sin",
+      "month_cos",
+      "is_weekend",
+      "is_bank_holiday_ew",
+      "is_bank_holiday_scotland",
+      "lag_1d_available",
+      "demand_lag_1d_mw",
+      "demand_lag_2d_mw",
+      "demand_lag_7d_mw",
+      "demand_lag_14d_mw",
+      "demand_rolling_mean_7d_mw",
+      "demand_rolling_std_7d_mw",
+      "prevday_morning_mean_mw",
+      "prevday_morning_max_mw"
+    ]
+  },
+  "tft": {
+    "best_validation_quantile_loss": 0.04602963663637638,
+    "train_windows": 687
+  }
+}
