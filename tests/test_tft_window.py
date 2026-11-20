@@ -1,6 +1,5 @@
 from datetime import date, timedelta
 
-import numpy as np
 import pandas as pd
 
 from gb_demand_forecasting.models.tft import DailyWindowDataset, Standardizer

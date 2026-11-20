@@ -1,6 +1,5 @@
 from datetime import date, timedelta
 
-import numpy as np
 import pandas as pd
 
 from gb_demand_forecasting.data.prepare import _add_leakage_safe_history

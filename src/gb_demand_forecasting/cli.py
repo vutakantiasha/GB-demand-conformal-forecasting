@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-from pathlib import Path
 
 from gb_demand_forecasting.orchestrator import acquire, full_run, prepare, train
 from gb_demand_forecasting.utils.config import load_project_config
