@@ -12,7 +12,7 @@ license = {text = "MIT"}
 authors = [{name = "Vutakanti Asha Reddy"}]
 dependencies = [
   "numpy>=2.0,<3",
-  "pandas>=2.2,<3",
+  "pandas>=2.2,<4",
   "scipy>=1.13,<2",
   "scikit-learn>=1.5,<2",
   "lightgbm>=4.5,<5",
