@@ -48,7 +48,7 @@ jobs:
       - name: End-to-end deterministic smoke pipeline
         run: gbdf full-run --config configs/smoke.yaml
       - name: Archive smoke engineering outputs
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: synthetic-smoke-outputs
           path: |
