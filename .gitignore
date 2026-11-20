@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+.env
+.env.*
+*.part
+
+# Large/reproducible data products
+data/raw/*.csv
+data/raw/*.csv.gz
+data/interim/*
+data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Synthetic smoke-run outputs
+data/raw_smoke/
+data/interim_smoke/
+data/processed_smoke/
+artifacts_smoke/
+results_smoke/
+reports_smoke/
+
+# Local logs and transient outputs
+*.log
+
+# Regenerated model/prediction artefacts
+artifacts/models/*
+artifacts/predictions/*.csv
+artifacts/calibration/*.csv
+results/error_analysis/error_taxonomy.csv
